@@ -1,0 +1,88 @@
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(0, 0, 0, 0.918);
+  color: beige;
+}
+h2{
+  text-align: center;
+  letter-spacing: 2px;
+  
+  margin-top: 5vh;
+  margin-left: 1vws;
+}
+.game-header{
+  display: flex;
+  justify-content: center;
+}
+
+#result{
+margin-top: 10vh;
+font-size: 22px;
+color:whitesmoke;
+letter-spacing: 2px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.scoreboard {
+display: flex;
+justify-content: space-around;
+width: 300px;
+background-color: #fff;
+border: 2px solid #ccc;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.result-score{
+justify-content: center;
+margin-top: 10vh;
+font-size: 22px;
+color:whitesmoke;
+letter-spacing: 2px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.player, .computer {
+text-align: center;
+}
+
+h3 {
+margin: 0;
+color: #333;
+}
+
+span {
+font-size: 24px;
+margin: 5px 0;
+color: #555;
+}
+.scoreboard-main{
+display: flex;
+justify-content: center;
+margin-top: 4vh;
+}
+
+.choices{
+
+display: flex;
+justify-content: center;
+margin-top: 20vh;
+
+
+}
+.choice i{
+font-size: 100px;
+cursor: pointer;
+padding: 20px;
+
+}
+.choice i:hover{
+margin-top: -20px;
+rotate:5deg;
+transition-delay: 1ms;
+}
+.user{
+display: flex;
+margin-top: 10vh;
+justify-content: center;
+
+}
